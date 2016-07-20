@@ -1,9 +1,7 @@
-Summary of data from “Human Activity Recognition Using Smartphones Dataset”
-============================================================================
-Original data collected by: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto
+Summary of data from “Human Activity Recognition Using Smartphones Dataset” by Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto
 ============================================================================
 
-This dataset is derived from data generated in the experiment summarized below. Data summarization is described under “Summarization”
+This dataset is a summary of data generated in the experiment summarized below. Data summarization is described under “Summarization”
 
 Experiment
 =================
@@ -60,9 +58,13 @@ fimeBodyGyroJerkMagnitude
 
 Summarization
 =================
-The set of variables that were estimated from these signals are: 
-
-mean(): Mean value
-std(): Standard deviation
-
-Further, these values were averaged over all observations within each subject (numbered 1-30) / activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) pair, and the results are found in “summaryData.csv”
+The script "run_analysis.R" reads data files from the UCI HAR Dataset, and performs the following summarization and transformations:
+1) it extracts the mean and standard deviation for each variable (already calculated in the original dataset)
+2) it further averages those values over all observations within each subject (numbered 1-30) / activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) pair
+3) it replaces abbreviations in the original variable names with complete words:
+  "Acc" replaced with Accelerometer
+  "Gyro" replaced with Gyroscope
+  "Mag" replaced with Magnitude
+  Starting "t" replaced with Time
+  Starting "f" replaced with Frequency
+4) it writes the summary results to “summaryData.csv”
