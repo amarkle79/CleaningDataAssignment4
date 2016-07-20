@@ -65,4 +65,4 @@ The set of variables that were estimated from these signals are:
 mean(): Mean value
 std(): Standard deviation
 
-Further, these values were averaged over all observations within each subject/activity pair, and the results are found in “summaryData.csv”
+Further, these values were averaged over all observations within each subject (numbered 1-30) / activity (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) pair, and the results are found in “summaryData.csv”
