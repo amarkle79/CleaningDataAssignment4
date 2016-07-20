@@ -41,4 +41,4 @@ summaryData$subject <- sapply(groups, function(x) strsplit(x, split=".", fixed=T
 summaryData$activity <- sapply(groups, function(x) strsplit(x, split=".", fixed=TRUE)[[1]][2])
 
 # Write the data set to a file
-write.table(summaryData, file = "summaryData.csv", sep=",", row.names=F)
+write.table(summaryData, file = "summaryData.txt", row.names=F)
