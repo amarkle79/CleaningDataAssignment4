@@ -1,12 +1,12 @@
 # Read all of the necessary data files.
-#test <- read.table("UCI HAR Dataset/test/X_test.txt", header=FALSE)
-#train <- read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
-#subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", header=FALSE)
-#subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", header=FALSE)
-#features <- read.table("UCI HAR Dataset/features.txt", header=FALSE)
-#activity_test <- read.table("UCI HAR Dataset/test/y_test.txt", header=FALSE)
-#activity_train <- read.table("UCI HAR Dataset/train/y_train.txt", header=FALSE)
-#activity_lables <- read.table("UCI HAR Dataset/activity_labels.txt", header=FALSE)
+test <- read.table("UCI HAR Dataset/test/X_test.txt", header=FALSE)
+train <- read.table("UCI HAR Dataset/train/X_train.txt", header=FALSE)
+subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt", header=FALSE)
+subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt", header=FALSE)
+features <- read.table("UCI HAR Dataset/features.txt", header=FALSE)
+activity_test <- read.table("UCI HAR Dataset/test/y_test.txt", header=FALSE)
+activity_train <- read.table("UCI HAR Dataset/train/y_train.txt", header=FALSE)
+activity_lables <- read.table("UCI HAR Dataset/activity_labels.txt", header=FALSE)
 
 # Combine training and test sets.
 data <- rbind(test, train)
