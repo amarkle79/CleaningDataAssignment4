@@ -25,21 +25,37 @@ These signals were used to estimate variables of the feature vector for each pat
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 timeBodyAccelerometer-XYZ
+
 timeGravityAccelerometer-XYZ
+
 timeBodyAccelerometerJerk-XYZ
+
 timeBodyGyroscope-XYZ
+
 timeBodyGyroscopeJerk-XYZ
+
 timeBodyAccelerometerMagnitude
+
 timeGravityAccelerometerMagnitude
+
 timeBodyAccelerometerJerkMagnitude
+
 timeBodyGyroscopeMagnitude
+
 timeBodyGyroscopeJerkMagnitude
+
 fimeBodyAccelerometer-XYZ
+
 fimeBodyAccelerometerJerk-XYZ
+
 fimeBodyGyroscope-XYZ
+
 fimeBodyAccelerometerMagnitude
+
 fimeBodyAccelerometerJerkMagnitude
+
 fimeBodyGyroscopeMagnitude
+
 fimeBodyGyroJerkMagnitude
 
 Summarization
