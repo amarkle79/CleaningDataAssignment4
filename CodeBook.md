@@ -1,5 +1,5 @@
-============================================================================
 Summary of data from “Human Activity Recognition Using Smartphones Dataset”
+============================================================================
 Original data collected by: Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, and Luca Oneto
 ============================================================================
 
